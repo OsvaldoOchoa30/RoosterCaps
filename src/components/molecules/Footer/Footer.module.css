@@ -1,0 +1,12 @@
+.footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 6em;
+    background-color: black;
+   margin-top: 126px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegúrate de que el footer esté por encima de otros elementos */
+  }

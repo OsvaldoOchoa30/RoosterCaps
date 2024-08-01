@@ -1,0 +1,65 @@
+/* Inventario.module.css */
+
+/* Estilo para el título */
+.title {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  /* Contenedor principal */
+  .container {
+    padding: 20px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Fila de gorras */
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  /* Estilo para cada tarjeta de gorra */
+  .card {
+    flex: 1 1 calc(20% - 20px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: #fff;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Imagen de la tarjeta */
+  .cardImage {
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Contenido de la tarjeta */
+  .cardContent {
+    padding: 15px;
+  }
+  
+  /* Título de la tarjeta */
+  .cardTitle {
+    font-size: 1.25rem;
+    margin: 0;
+    color: #333;
+  }
+  
+  /* Precio de la tarjeta */
+  .cardPrice {
+    font-size: 1rem;
+    color: #e60023;
+    margin: 10px 0 0;
+  }
+  

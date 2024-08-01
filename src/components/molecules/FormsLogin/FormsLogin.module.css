@@ -1,0 +1,13 @@
+.container {
+    padding: 20px;
+  }
+  
+  .centeredText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  

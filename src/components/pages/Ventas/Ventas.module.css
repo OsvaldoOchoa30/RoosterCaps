@@ -1,0 +1,10 @@
+.principal{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.secundario{
+    display: flex;
+    justify-content: center;
+}

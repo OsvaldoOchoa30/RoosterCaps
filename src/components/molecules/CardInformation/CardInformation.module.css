@@ -1,0 +1,38 @@
+.contenedor {
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: row;
+}
+
+.imagen {
+  justify-content: center;
+  display: flex;
+}
+
+.datos {
+    display: block;
+    align-items: center;
+    align-content: center;
+  
+}
+
+.input{
+    width: 90px;
+    height: 60px;
+}
+
+
+.cantidad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.precio {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+}
+
